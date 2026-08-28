@@ -1,13 +1,16 @@
 
 این Round خیلی مهم است، چون در Round بعدی که وارد UI/UX می‌شویم باید بدانیم **برای چه ذهنیتی طراحی می‌کنیم**. باز هم کنار هر سؤال پیشنهاد خودم را می‌گذارم.
 
-1. **اگر قرار باشد دو Persona برای Demoهای محصول انتخاب کنیم، چه کسانی باشند؟** توجه کن این به معنی محدود کردن خود Template نیست؛ فقط محتوای Demo باید یک شخصیت واقعی داشته باشد. گزینه‌های خوب: `Developer + UI/UX Designer`، `Developer + Creative Freelancer`، `Designer + Photographer` یا دو شخصیت کاملاً عمومی. پیشنهاد من: **Demo 01 = Front-end / Creative Developer** و **Demo 02 = UI/UX / Digital Designer**. این دو هم بازار خوبی دارند و هم اجازه می‌دهند قابلیت‌های قالب را از دو زاویه متفاوت نشان دهیم.
+1. **اگر قرار باشد دو Persona برای Demoهای محصول انتخاب کنیم، چه کسانی باشند؟**
+    توجه کن این به معنی محدود کردن خود Template نیست؛ فقط محتوای Demo باید یک شخصیت واقعی داشته باشد. گزینه‌های خوب: `Developer + UI/UX Designer`، `Developer + Creative Freelancer`، `Designer + Photographer` یا دو شخصیت کاملاً عمومی. پیشنهاد من: **Demo 01 = Front-end / Creative Developer** و **Demo 02 = UI/UX / Digital Designer**. این دو هم بازار خوبی دارند و هم اجازه می‌دهند قابلیت‌های قالب را از دو زاویه متفاوت نشان دهیم.
     
 2. **خریدار در اصل چرا این قالب را می‌خرد؟** برای پیدا کردن شغل، گرفتن پروژه فریلنس، Personal Branding، معرفی کسب‌وکار شخصی، رزومه آنلاین یا ترکیبی؟ پیشنهاد من: محصول را حول یک نیاز بزرگ‌تر تعریف کنیم: **«ساخت سریع یک حضور حرفه‌ای آنلاین که هم شخص را معرفی کند و هم کیفیت کارهایش را ثابت کند.»** در نتیجه هم Job Seeker، هم Freelancer و هم Creative Professional داخل بازار هدف قرار می‌گیرند.
     
-3. **سه مشکل اصلی که می‌خواهی محصولت در قالب‌های موجود حل کند چیست؟** چند گزینه: طراحی قدیمی، Portfolio ضعیف، Customization سخت، کد شلوغ، Responsive ضعیف، Documentation بد، نسخه RTL/LTR ضعیف، Dark Mode ناقص، وابستگی زیاد، ظاهر Generic. پیشنهاد شخصی من برای Top 3: **Generic/dated design + weak project presentation + difficult customization/documentation**.
+3. **سه مشکل اصلی که می‌خواهی محصولت در قالب‌های موجود حل کند چیست؟**
+    چند گزینه: طراحی قدیمی، Portfolio ضعیف، Customization سخت، کد شلوغ، Responsive ضعیف، Documentation بد، نسخه RTL/LTR ضعیف، Dark Mode ناقص، وابستگی زیاد، ظاهر Generic. پیشنهاد شخصی من برای Top 3: **Generic/dated design + weak project presentation + difficult customization/documentation**.
     
-4. **خریدار پس از باز کردن فایل ZIP باید چقدر سریع بتواند سایت را شخصی کند؟** پیشنهاد من این است که یک کاربر با دانش مقدماتی HTML باید بتواند طی حدود یک نشست کوتاه، بدون فهم architecture، حداقل **نام، عکس، Bio، لینک‌ها، رنگ Accent، Resume و چند Project** را عوض کند. برای رسیدن به این هدف باید کد و Documentation را عمداً طراحی کنیم، نه اینکه در آخر README بنویسیم.
+4. **خریدار پس از باز کردن فایل ZIP باید چقدر سریع بتواند سایت را شخصی کند؟**
+    پیشنهاد من این است که یک کاربر با دانش مقدماتی HTML باید بتواند طی حدود یک نشست کوتاه، بدون فهم architecture، حداقل **نام، عکس، Bio، لینک‌ها، رنگ Accent، Resume و چند Project** را عوض کند. برای رسیدن به این هدف باید کد و Documentation را عمداً طراحی کنیم، نه اینکه در آخر README بنویسیم.
     
 5. **آیا می‌خواهی خریدار برای استفاده از نسخه نهایی به Node/npm یا Build Command احتیاج داشته باشد؟** انتخاب‌ها عملاً دو فلسفه‌اند: `Developer-oriented source with build process` یا `Download → Edit → Open index.html`. پیشنهاد من برای محصول Marketplace: **هیچ Build Step اجباری برای مصرف‌کننده نداشته باشیم.** حتی اگر در Development از tooling استفاده کردیم، خروجی نهایی باید قابل استفاده مستقیم باشد.
     
