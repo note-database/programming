@@ -1,6 +1,3 @@
-## Round 3 — Information Architecture, Pages & Feature Scope
-
-من اول یک اصل را قفل می‌کنم:
 
 **دو Demo ما نباید دو محصول جدا باشند.**  
 هر دو باید روی یک معماری، Design System و Component Language مشترک ساخته شوند و فقط Art Direction، Hero composition، بعضی Layoutها و محتوای Persona متفاوت باشد. اگر هر Demo ساختار خودش را داشته باشد، هزینه توسعه و QA تقریباً دو برابر می‌شود.
